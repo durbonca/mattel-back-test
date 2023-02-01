@@ -4,7 +4,8 @@
   "info": {
     "singularName": "entry",
     "pluralName": "entries",
-    "displayName": "Entry"
+    "displayName": "Entry",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +13,10 @@
   "pluginOptions": {},
   "attributes": {
     "Body": {
-      "type": "text"
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
     }
   }
 }
